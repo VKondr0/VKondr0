@@ -1,0 +1,53 @@
+name: Update Activity Signature
+
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: "23 8 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: activity-signature
+  cancel-in-progress: false
+
+jobs:
+  update:
+    name: Generate GitHub Activity
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Generate activity graphics
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python scripts/generate_activity.py
+
+      - name: Commit updated graphics
+        run: |
+          git add -- \
+            assets/activity/signature-dark.svg \
+            assets/activity/signature-light.svg \
+            assets/activity/signature-mobile-dark.svg \
+            assets/activity/signature-mobile-light.svg
+
+          if git diff --cached --quiet; then
+            echo "Activity graphics are already up to date."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+            git commit -m "chore: refresh activity signature"
+            git push origin HEAD:main
+          fi

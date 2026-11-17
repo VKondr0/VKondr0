@@ -1,0 +1,238 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="640"
+     height="520"
+     viewBox="0 0 640 520"
+     role="img"
+     aria-labelledby="title desc">
+
+  <title id="title">
+    Investment Fund Tracker — VK / INDEX
+  </title>
+
+  <desc id="desc">
+    Light mobile project card for an Excel VBA
+    investment portfolio tracker.
+    Decorative financial geometry does not
+    represent actual portfolio performance.
+  </desc>
+
+  <defs>
+    <linearGradient id="background"
+                    x1="0" y1="0"
+                    x2="1" y2="1">
+      <stop offset="0%" stop-color="#F0EEE7"/>
+      <stop offset="100%" stop-color="#E7EAE0"/>
+    </linearGradient>
+
+    <linearGradient id="accent"
+                    x1="0" y1="0"
+                    x2="1" y2="0">
+      <stop offset="0%" stop-color="#879D78"/>
+      <stop offset="100%" stop-color="#547C30"/>
+    </linearGradient>
+
+    <clipPath id="frame">
+      <rect width="640"
+            height="520"
+            rx="20"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+
+    <!-- Background -->
+
+    <rect width="640"
+          height="520"
+          fill="url(#background)"/>
+
+    <rect x="1"
+          y="1"
+          width="638"
+          height="518"
+          rx="19"
+          fill="none"
+          stroke="#BBC7B7"/>
+
+    <!-- Header -->
+
+    <rect x="34" y="39"
+          width="11"
+          height="11"
+          fill="#8FC34A"/>
+
+    <text x="60" y="50"
+          font-family="monospace"
+          font-size="20"
+          font-weight="bold"
+          letter-spacing="2"
+          fill="#547C30">
+      01 / SELECTED WORK
+    </text>
+
+    <text x="606" y="50"
+          text-anchor="end"
+          font-family="monospace"
+          font-size="15"
+          letter-spacing="1.5"
+          fill="#607265">
+      PROJECT 001
+    </text>
+
+    <line x1="34" y1="76"
+          x2="606" y2="76"
+          stroke="#A7B5A4"
+          stroke-width="1"/>
+
+    <!-- Project title -->
+
+    <text x="38" y="149"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="66"
+          font-weight="900"
+          letter-spacing="-2"
+          fill="#101413">
+      INVESTMENT
+    </text>
+
+    <text x="38" y="214"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="63"
+          font-weight="900"
+          letter-spacing="-2"
+          fill="#101413">
+      FUND TRACKER
+    </text>
+
+    <!-- Technologies -->
+
+    <rect x="40" y="248"
+          width="38"
+          height="4"
+          fill="#8FC34A"/>
+
+    <text x="95" y="257"
+          font-family="monospace"
+          font-size="22"
+          letter-spacing="1.5"
+          fill="#536754">
+      EXCEL / VBA / FINANCE
+    </text>
+
+    <!-- Section divider -->
+
+    <line x1="40" y1="291"
+          x2="600" y2="291"
+          stroke="#A7B5A4"
+          stroke-width="1"/>
+
+    <!-- Financial construction geometry -->
+
+    <g fill="none"
+       stroke="#839C78"
+       stroke-width="1"
+       opacity="0.65">
+
+      <circle cx="320" cy="393" r="96"/>
+      <circle cx="320" cy="393" r="68"/>
+      <circle cx="320" cy="393" r="37"/>
+
+      <path d="M184 393 H456"/>
+      <path d="M320 300 V487"/>
+      <path d="M225 477 L415 309"/>
+
+    </g>
+
+    <!-- Auxiliary measurement marks -->
+
+    <g fill="none"
+       stroke="#728673"
+       stroke-width="1"
+       opacity="0.55">
+
+      <path d="M190 322 H208 M199 313 V331"/>
+      <path d="M432 331 H450 M441 322 V340"/>
+      <path d="M190 459 H208 M199 450 V468"/>
+
+    </g>
+
+    <!-- Decorative financial signal -->
+
+    <path
+      d="M221 439
+         L266 416
+         L296 428
+         L345 371
+         L389 389
+         L430 338"
+      fill="none"
+      stroke="url(#accent)"
+      stroke-width="4"
+      stroke-linecap="round"
+      stroke-linejoin="round"/>
+
+    <!-- Signal reference points -->
+
+    <circle cx="345" cy="371"
+            r="6"
+            fill="#547C30"/>
+
+    <circle cx="430" cy="338"
+            r="7"
+            fill="#547C30"/>
+
+    <circle cx="430" cy="338"
+            r="14"
+            fill="none"
+            stroke="#547C30"
+            stroke-width="1"
+            opacity="0.4"/>
+
+    <!-- Navigation arrow -->
+
+    <path
+      d="M552 403
+         H590
+         M576 389
+         L590 403
+         L576 417"
+      fill="none"
+      stroke="#547C30"
+      stroke-width="3"
+      stroke-linecap="round"
+      stroke-linejoin="round"/>
+
+    <!-- Footer -->
+
+    <line x1="40" y1="488"
+          x2="600" y2="488"
+          stroke="#A7B5A4"
+          stroke-width="1"/>
+
+    <text x="40" y="508"
+          font-family="monospace"
+          font-size="13"
+          letter-spacing="1"
+          fill="#607265">
+      VK / INDEX
+    </text>
+
+    <text x="600" y="508"
+          text-anchor="end"
+          font-family="monospace"
+          font-size="13"
+          letter-spacing="1"
+          fill="#547C30">
+      SELECTED WORK
+    </text>
+
+    <!-- Bottom accent -->
+
+    <rect x="0" y="516"
+          width="640"
+          height="4"
+          fill="#8FC34A"
+          opacity="0.9"/>
+
+  </g>
+</svg>

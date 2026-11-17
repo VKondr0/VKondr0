@@ -1,0 +1,249 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="450"
+     viewBox="0 0 1200 450"
+     role="img"
+     aria-labelledby="title desc">
+
+  <title id="title">VK / INDEX — Vitalii Kondratiuk</title>
+
+  <desc id="desc">
+    Light identity banner with the geometric VK monogram,
+    construction lines, academic fields, and contour waves.
+  </desc>
+
+  <defs>
+    <linearGradient id="background"
+                    x1="0" y1="0"
+                    x2="1" y2="1">
+      <stop offset="0%" stop-color="#F0EEE7"/>
+      <stop offset="100%" stop-color="#E7EAE0"/>
+    </linearGradient>
+
+    <linearGradient id="logo-dark"
+                    x1="0" y1="0"
+                    x2="1" y2="1">
+      <stop offset="0%" stop-color="#101413"/>
+      <stop offset="100%" stop-color="#1C2420"/>
+    </linearGradient>
+
+    <linearGradient id="lime"
+                    x1="0" y1="0"
+                    x2="1" y2="1">
+      <stop offset="0%" stop-color="#9FD354"/>
+      <stop offset="100%" stop-color="#8FC34A"/>
+    </linearGradient>
+
+    <linearGradient id="wave"
+                    x1="0" y1="0"
+                    x2="1" y2="0">
+      <stop offset="0%" stop-color="#879D78"/>
+      <stop offset="55%" stop-color="#8FC34A"/>
+      <stop offset="100%" stop-color="#6F9465"/>
+    </linearGradient>
+
+    <clipPath id="frame">
+      <rect width="1200" height="450" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+
+    <!-- Background -->
+
+    <rect width="1200"
+          height="450"
+          fill="url(#background)"/>
+
+    <!-- Header -->
+
+    <text x="45" y="53"
+          font-family="monospace"
+          font-size="17"
+          letter-spacing="5"
+          fill="#547C30">
+      VK / INDEX
+    </text>
+
+    <line x1="238" y1="47"
+          x2="960" y2="47"
+          stroke="#9CA89A"
+          stroke-width="1"/>
+
+    <text x="1155" y="53"
+          text-anchor="end"
+          font-family="monospace"
+          font-size="12"
+          letter-spacing="3"
+          fill="#607265">
+      PERSONAL ARCHIVE
+    </text>
+
+    <!-- Identity composition -->
+
+    <g transform="translate(50 80)">
+
+      <!-- Construction geometry -->
+
+      <g fill="none" stroke="#728673">
+
+        <circle cx="160" cy="158" r="108"
+                stroke-width="0.8"
+                opacity="0.65"/>
+
+        <circle cx="160" cy="158" r="76"
+                stroke-width="0.5"
+                opacity="0.3"/>
+
+        <path d="M160 24 V292
+                 M24 158 H296
+                 M35 282 L282 35"
+              stroke-width="0.7"
+              opacity="0.45"/>
+
+        <path d="M52 105 H270
+                 M52 238 H270
+                 M115 50 V270"
+              stroke-width="0.5"
+              opacity="0.3"/>
+
+      </g>
+
+      <!-- Registration marks -->
+
+      <g stroke="#657968"
+         stroke-width="0.8"
+         opacity="0.8">
+
+        <path d="M35 80 H51 M43 72 V88"/>
+        <path d="M272 67 H288 M280 59 V75"/>
+
+      </g>
+
+      <!-- Updated VK monogram -->
+
+      <g transform="translate(-34 -25.5) scale(0.31)">
+
+        <!-- V -->
+
+        <path
+          d="M247 421
+             H379
+             L501 628
+             L619 421
+             H753
+             L506 838
+             Z"
+          fill="url(#logo-dark)"
+        />
+
+        <!-- K upper geometry -->
+
+        <path
+          d="M855 421
+             H999
+             L802 642
+             H701
+             V742
+             L636 671
+             Z"
+          fill="url(#logo-dark)"
+        />
+
+        <!-- K lime accent -->
+
+        <path
+          d="M802 644
+             L971 838
+             H788
+             L708 749
+             Z"
+          fill="url(#lime)"
+        />
+
+      </g>
+
+    </g>
+
+    <!-- Identity divider -->
+
+    <line x1="395" y1="112"
+          x2="395" y2="347"
+          stroke="#96A394"
+          stroke-width="1"/>
+
+    <!-- Name -->
+
+    <text x="445" y="176"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="72"
+          font-weight="900"
+          letter-spacing="-2"
+          fill="#101413">
+      VITALII
+    </text>
+
+    <text x="445" y="248"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="68"
+          font-weight="900"
+          letter-spacing="-2"
+          fill="#101413">
+      KONDRATIUK
+    </text>
+
+    <!-- Academic fields -->
+
+    <rect x="449" y="289"
+          width="12" height="12"
+          fill="#8FC34A"/>
+
+    <text x="478" y="301"
+          font-family="monospace"
+          font-size="16"
+          letter-spacing="1.5"
+          fill="#547C30">
+      COMPUTER ENGINEERING / INFORMATION SYSTEMS / FINANCE
+    </text>
+
+    <!-- Contour waves -->
+
+    <g fill="none"
+       stroke="url(#wave)"
+       stroke-width="1"
+       opacity="0.8">
+
+      <path d="M0 401 C160 345 260 440 410 394 S670 370 800 393 S1020 325 1200 354"/>
+
+      <path d="M0 408 C160 352 260 447 410 401 S670 377 800 400 S1020 332 1200 361"/>
+
+      <path d="M0 415 C160 359 260 454 410 408 S670 384 800 407 S1020 339 1200 368"/>
+
+      <path d="M0 422 C160 366 260 461 410 415 S670 391 800 414 S1020 346 1200 375"/>
+
+      <path d="M0 429 C160 373 260 468 410 422 S670 398 800 421 S1020 353 1200 382"/>
+
+      <path d="M0 436 C160 380 260 475 410 429 S670 405 800 428 S1020 360 1200 389"/>
+
+      <path d="M0 443 C160 387 260 482 410 436 S670 412 800 435 S1020 367 1200 396"/>
+
+      <path d="M0 450 C160 394 260 489 410 443 S670 419 800 442 S1020 374 1200 403"/>
+
+      <path d="M0 457 C160 401 260 496 410 450 S670 426 800 449 S1020 381 1200 410"/>
+
+      <path d="M0 464 C160 408 260 503 410 457 S670 433 800 456 S1020 388 1200 417"/>
+
+      <path d="M0 471 C160 415 260 510 410 464 S670 440 800 463 S1020 395 1200 424"/>
+
+    </g>
+
+    <!-- Bottom line -->
+
+    <line x1="45" y1="430"
+          x2="1155" y2="430"
+          stroke="#8AA083"
+          stroke-width="0.7"
+          opacity="0.45"/>
+
+  </g>
+</svg>

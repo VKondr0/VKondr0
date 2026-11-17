@@ -1,0 +1,283 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="640"
+     height="520"
+     viewBox="0 0 640 520"
+     role="img"
+     aria-labelledby="title desc">
+
+  <title id="title">
+    The Human Exchange — VK / INDEX
+  </title>
+
+  <desc id="desc">
+    Light mobile project card for The Human Exchange.
+    A fictional marketplace for time, sleep,
+    energy and other everyday resources.
+  </desc>
+
+  <defs>
+    <linearGradient id="background"
+                    x1="0" y1="0"
+                    x2="1" y2="1">
+      <stop offset="0%" stop-color="#F0EEE7"/>
+      <stop offset="100%" stop-color="#E7EAE0"/>
+    </linearGradient>
+
+    <linearGradient id="accent"
+                    x1="0" y1="0"
+                    x2="1" y2="1">
+      <stop offset="0%" stop-color="#879D78"/>
+      <stop offset="100%" stop-color="#547C30"/>
+    </linearGradient>
+
+    <clipPath id="frame">
+      <rect width="640"
+            height="520"
+            rx="20"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+
+    <!-- Background -->
+
+    <rect width="640"
+          height="520"
+          fill="url(#background)"/>
+
+    <rect x="1"
+          y="1"
+          width="638"
+          height="518"
+          rx="19"
+          fill="none"
+          stroke="#BBC7B7"/>
+
+    <!-- Header -->
+
+    <rect x="34" y="39"
+          width="11"
+          height="11"
+          fill="#8FC34A"/>
+
+    <text x="60" y="50"
+          font-family="monospace"
+          font-size="20"
+          font-weight="bold"
+          letter-spacing="2"
+          fill="#547C30">
+      01 / SELECTED WORK
+    </text>
+
+    <text x="606" y="50"
+          text-anchor="end"
+          font-family="monospace"
+          font-size="15"
+          letter-spacing="1.5"
+          fill="#607265">
+      PROJECT 002
+    </text>
+
+    <line x1="34" y1="76"
+          x2="606" y2="76"
+          stroke="#A7B5A4"
+          stroke-width="1"/>
+
+    <!-- Project title -->
+
+    <text x="38" y="149"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="70"
+          font-weight="900"
+          letter-spacing="-2"
+          fill="#101413">
+      THE HUMAN
+    </text>
+
+    <text x="38" y="214"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="67"
+          font-weight="900"
+          letter-spacing="-2"
+          fill="#101413">
+      EXCHANGE
+    </text>
+
+    <!-- Technologies -->
+
+    <rect x="40" y="248"
+          width="38"
+          height="4"
+          fill="#8FC34A"/>
+
+    <text x="95" y="257"
+          font-family="monospace"
+          font-size="22"
+          letter-spacing="1.5"
+          fill="#536754">
+      HTML / CSS / CONCEPT
+    </text>
+
+    <!-- Section divider -->
+
+    <line x1="40" y1="291"
+          x2="600" y2="291"
+          stroke="#A7B5A4"
+          stroke-width="1"/>
+
+    <!-- Construction geometry -->
+
+    <g fill="none"
+       stroke="#839C78"
+       stroke-width="1"
+       opacity="0.65">
+
+      <circle cx="320" cy="389" r="94"/>
+      <circle cx="320" cy="389" r="66"/>
+      <circle cx="320" cy="389" r="37"/>
+
+      <path d="M182 389 H458"/>
+      <path d="M320 297 V484"/>
+      <path d="M222 474 L418 304"/>
+
+    </g>
+
+    <!-- Registration marks -->
+
+    <g fill="none"
+       stroke="#728673"
+       stroke-width="1"
+       opacity="0.55">
+
+      <path d="M183 324 H203 M193 314 V334"/>
+      <path d="M435 328 H455 M445 318 V338"/>
+      <path d="M188 457 H208 M198 447 V467"/>
+
+    </g>
+
+    <!-- Resource exchange network -->
+
+    <g fill="none"
+       stroke="url(#accent)"
+       stroke-width="3.5"
+       stroke-linecap="round"
+       stroke-linejoin="round">
+
+      <path d="M240 350
+               L406 355
+               L327 432
+               Z"/>
+
+    </g>
+
+    <!-- Node rings -->
+
+    <g fill="#F0EEE7"
+       stroke="#547C30"
+       stroke-width="2.5">
+
+      <circle cx="240" cy="350" r="13"/>
+      <circle cx="406" cy="355" r="13"/>
+      <circle cx="327" cy="432" r="13"/>
+
+    </g>
+
+    <!-- Node centers -->
+
+    <g fill="#547C30">
+
+      <circle cx="240" cy="350" r="5"/>
+      <circle cx="406" cy="355" r="5"/>
+      <circle cx="327" cy="432" r="5"/>
+
+    </g>
+
+    <!-- Resource labels -->
+
+    <g font-family="monospace"
+       font-size="17"
+       letter-spacing="1.6"
+       fill="#536754">
+
+      <text x="240"
+            y="326"
+            text-anchor="middle">
+        TIME
+      </text>
+
+      <text x="406"
+            y="331"
+            text-anchor="middle">
+        SLEEP
+      </text>
+
+      <text x="327"
+            y="466"
+            text-anchor="middle">
+        ENERGY
+      </text>
+
+    </g>
+
+    <!-- Central connection -->
+
+    <circle cx="321" cy="380"
+            r="5"
+            fill="#547C30"
+            opacity="0.85"/>
+
+    <circle cx="321" cy="380"
+            r="11"
+            fill="none"
+            stroke="#547C30"
+            stroke-width="1"
+            opacity="0.3"/>
+
+    <!-- Navigation arrow -->
+
+    <path
+      d="M552 403
+         H590
+         M576 389
+         L590 403
+         L576 417"
+      fill="none"
+      stroke="#547C30"
+      stroke-width="3"
+      stroke-linecap="round"
+      stroke-linejoin="round"/>
+
+    <!-- Footer -->
+
+    <line x1="40" y1="488"
+          x2="600" y2="488"
+          stroke="#A7B5A4"
+          stroke-width="1"/>
+
+    <text x="40" y="508"
+          font-family="monospace"
+          font-size="13"
+          letter-spacing="1"
+          fill="#607265">
+      VK / INDEX
+    </text>
+
+    <text x="600" y="508"
+          text-anchor="end"
+          font-family="monospace"
+          font-size="13"
+          letter-spacing="1"
+          fill="#547C30">
+      SELECTED WORK
+    </text>
+
+    <!-- Bottom accent -->
+
+    <rect x="0" y="516"
+          width="640"
+          height="4"
+          fill="#8FC34A"
+          opacity="0.9"/>
+
+  </g>
+</svg>

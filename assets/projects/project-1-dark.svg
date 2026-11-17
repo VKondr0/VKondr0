@@ -1,0 +1,182 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1200"
+     height="270"
+     viewBox="0 0 1200 270"
+     role="img"
+     aria-labelledby="title desc">
+
+  <title id="title">
+    Investment Fund Tracker — VK / INDEX
+  </title>
+
+  <desc id="desc">
+    Excel VBA portfolio tracker for transactions,
+    holdings, portfolio performance and allocation.
+  </desc>
+
+  <defs>
+    <linearGradient id="background"
+                    x1="0" y1="0"
+                    x2="1" y2="1">
+      <stop offset="0%" stop-color="#101413"/>
+      <stop offset="100%" stop-color="#19231B"/>
+    </linearGradient>
+
+    <linearGradient id="accent"
+                    x1="0" y1="0"
+                    x2="1" y2="0">
+      <stop offset="0%" stop-color="#66885B"/>
+      <stop offset="100%" stop-color="#C5EF80"/>
+    </linearGradient>
+
+    <clipPath id="frame">
+      <rect width="1200" height="270" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+
+    <!-- Background -->
+
+    <rect width="1200"
+          height="270"
+          fill="url(#background)"/>
+
+    <rect x="1" y="1"
+          width="1198" height="268"
+          rx="17"
+          fill="none"
+          stroke="#39483B"/>
+
+    <!-- Header -->
+
+    <rect x="45" y="35"
+          width="9" height="9"
+          fill="#C5EF80"/>
+
+    <text x="70" y="44"
+          font-family="monospace"
+          font-size="15"
+          letter-spacing="3"
+          fill="#C5EF80">
+      01 / SELECTED WORK
+    </text>
+
+    <text x="1149" y="44"
+          text-anchor="end"
+          font-family="monospace"
+          font-size="12"
+          letter-spacing="2"
+          fill="#9DAD9C">
+      PROJECT 001
+    </text>
+
+    <line x1="45" y1="67"
+          x2="1155" y2="67"
+          stroke="#425346"/>
+
+    <!-- Project identity -->
+
+    <text x="48" y="137"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="54"
+          font-weight="800"
+          letter-spacing="-1.5"
+          fill="#F0EEE7">
+      INVESTMENT FUND
+    </text>
+
+    <text x="48" y="191"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="54"
+          font-weight="800"
+          letter-spacing="-1.5"
+          fill="#F0EEE7">
+      TRACKER
+    </text>
+
+    <!-- Technologies -->
+
+    <rect x="48" y="216"
+          width="35" height="3"
+          fill="#C5EF80"/>
+
+    <text x="99" y="225"
+          font-family="monospace"
+          font-size="15"
+          letter-spacing="2"
+          fill="#A9B9A8">
+      EXCEL / VBA / FINANCE
+    </text>
+
+    <!-- Vertical divider -->
+
+    <line x1="835" y1="89"
+          x2="835" y2="239"
+          stroke="#526452"
+          stroke-width="1"/>
+
+    <!-- Decorative geometry -->
+
+    <g fill="none"
+       stroke="#657E5E"
+       stroke-width="1"
+       opacity="0.5">
+
+      <circle cx="1000" cy="163" r="92"/>
+      <circle cx="1000" cy="163" r="62"/>
+      <circle cx="1000" cy="163" r="32"/>
+
+      <path d="M870 163 H1130"/>
+      <path d="M1000 82 V244"/>
+      <path d="M905 232 L1095 94"/>
+
+    </g>
+
+    <!-- Abstract workflow signal -->
+
+    <g fill="none"
+       stroke="url(#accent)"
+       stroke-width="3"
+       stroke-linecap="round"
+       stroke-linejoin="round">
+
+      <path d="M909 189
+               L951 171
+               L980 185
+               L1021 134
+               L1058 147
+               L1092 107"/>
+
+    </g>
+
+    <circle cx="1021" cy="134"
+            r="5"
+            fill="#C5EF80"/>
+
+    <circle cx="1092" cy="107"
+            r="6"
+            fill="#C5EF80"/>
+
+    <!-- Arrow -->
+
+    <path d="M1122 212
+             H1145
+             M1135 202
+             L1145 212
+             L1135 222"
+          fill="none"
+          stroke="#C5EF80"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"/>
+
+    <!-- Bottom accent -->
+
+    <rect x="0" y="266"
+          width="1200" height="4"
+          fill="#C5EF80"
+          opacity="0.8"/>
+
+  </g>
+</svg>

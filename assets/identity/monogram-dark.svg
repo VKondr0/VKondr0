@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="320"
+     height="320"
+     viewBox="0 0 1254 1254"
+     role="img"
+     aria-labelledby="title desc">
+
+  <title id="title">VK / INDEX — Monogram</title>
+
+  <desc id="desc">
+    Minimal geometric VK monogram.
+    Ivory lettering with a lime green accent
+    on a dark graphite background.
+  </desc>
+
+  <defs>
+    <linearGradient id="background"
+                    x1="0" y1="0"
+                    x2="1" y2="1">
+      <stop offset="0%"
+            stop-color="#0C1010"/>
+
+      <stop offset="100%"
+            stop-color="#090D0F"/>
+    </linearGradient>
+
+    <linearGradient id="ivory"
+                    x1="0" y1="0"
+                    x2="1" y2="1">
+      <stop offset="0%"
+            stop-color="#FBF7EE"/>
+
+      <stop offset="100%"
+            stop-color="#F4F0E8"/>
+    </linearGradient>
+
+    <linearGradient id="lime"
+                    x1="0" y1="0"
+                    x2="1" y2="1">
+      <stop offset="0%"
+            stop-color="#D0FF7B"/>
+
+      <stop offset="100%"
+            stop-color="#C1F963"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+
+  <rect width="1254"
+        height="1254"
+        fill="url(#background)"/>
+
+  <!-- Geometric V -->
+
+  <path
+    d="M247 421
+       H379
+       L501 628
+       L619 421
+       H753
+       L506 838
+       Z"
+    fill="url(#ivory)"
+  />
+
+  <!-- Geometric K / upper element -->
+
+  <path
+    d="M855 421
+       H999
+       L802 642
+       H701
+       V742
+       L636 671
+       Z"
+    fill="url(#ivory)"
+  />
+
+  <!-- Geometric K / lime element -->
+
+  <path
+    d="M802 644
+       L971 838
+       H788
+       L708 749
+       Z"
+    fill="url(#lime)"
+  />
+
+</svg>
