@@ -10,7 +10,7 @@
   <desc id="desc">
     65 contributions across the displayed weeks.
     A generative visualization of GitHub activity.
-    Updated 2026-11-26.
+    Updated 2026-11-27.
   </desc>
 
   <defs>
@@ -197,7 +197,7 @@
           font-size="10"
           letter-spacing="1"
           fill="#C5EF80">
-      UPDATED 2026-11-26
+      UPDATED 2026-11-27
     </text>
 
   </g>
